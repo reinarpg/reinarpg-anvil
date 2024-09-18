@@ -1,5 +1,5 @@
 {
-  "name": "prismarine-provider-anvil",
+  "name": "reinarpg-anvil",
   "version": "2.8.0",
   "description": "Anvil Storage Provider implementation.",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PrismarineJS/prismarine-provider-anvil.git"
+    "url": "https://github.com/reinarpg/reinarpg-anvil.git"
   },
   "keywords": [
     "minecraft",
@@ -21,27 +21,27 @@
     "world",
     "prismarine"
   ],
-  "author": "Romain Beaumont <romain.rom1@gmail.com>",
+  "author": "Rauf Şen <raufsen11@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PrismarineJS/prismarine-provider-anvil/issues"
+    "url": "https://github.com/reinarpg/reinarpg-anvil/issues"
   },
-  "homepage": "https://github.com/PrismarineJS/prismarine-provider-anvil",
+  "homepage": "https://github.com/reinarpg/reinarpg-anvil",
   "devDependencies": {
     "buffer-equal": "^1.0.0",
     "flatmap": "0.0.3",
     "minecraft-data": "^3.0.0",
     "mocha": "^10.0.0",
-    "prismarine-provider-anvil": "file:.",
+    "reinarpg-anvil": "file:.",
     "prismarine-registry": "^1.1.0",
     "range": "0.0.3",
     "standard": "^17.0.0"
   },
   "dependencies": {
-    "prismarine-block": "^1.17.1",
-    "prismarine-chunk": "github:zardoy/prismarine-chunk",
-    "prismarine-nbt": "^2.5.0",
-    "prismarine-world": "^3.6.3",
+    "reinarpg-block": "github:reinarpg/reinarpg-block",
+    "reinarpg-chunk": "github:reinarpg/reinarpg-chunk",
+    "prismarine-nbt": "github:reinarpg/reinarpg-nbt",
+    "reinarpg-world": "github:reinarpg/reinarpg-world",
     "uint4": "^0.1.2",
     "vec3": "^0.1.6"
   }

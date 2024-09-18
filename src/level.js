@@ -40,7 +40,7 @@ async function writeLevel (/** @type {string} */path, /** @type {import('./level
           },
           LevelName: {
             type: 'string',
-            value: value.LevelName ?? 'prismarine-world'
+            value: value.LevelName ?? 'reinarpg-world'
           },
           generatorName: {
             type: 'string',

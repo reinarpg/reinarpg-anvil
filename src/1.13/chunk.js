@@ -1,6 +1,6 @@
 const nbt = require('prismarine-nbt')
-const ChunkSection = require('prismarine-chunk')('1.13').section
-const neededBits = require('prismarine-chunk/src/pc/common/neededBits')
+const ChunkSection = require('reinarpg-chunk')('1.13').section
+const neededBits = require('reinarpg-chunk/src/pc/common/neededBits')
 
 module.exports = (Chunk, mcData) => {
   function nbtChunkToPrismarineChunk (data) {

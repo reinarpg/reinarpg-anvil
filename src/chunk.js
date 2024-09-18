@@ -1,4 +1,4 @@
-const PrismarineChunk = require('prismarine-chunk')
+const PrismarineChunk = require('reinarpg-chunk')
 
 const chunkImplementations = {
   1.8: () => require('./1.8/chunk'),

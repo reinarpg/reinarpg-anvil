@@ -1,6 +1,6 @@
 const Anvil = require('./../index').Anvil('1.8')
 const Vec3 = require('vec3')
-const Chunk = require('prismarine-chunk')('1.8')
+const Chunk = require('reinarpg-chunk')('1.8')
 const path = require('path')
 
 const chunkF = new Anvil(process.argv[2] ? process.argv[2] : path.join(__dirname, '/../world/lttp'))
