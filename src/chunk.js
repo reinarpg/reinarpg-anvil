@@ -18,7 +18,7 @@ const chunkImplementations = {
 }
 
 module.exports = (registryOrVersion) => {
-  const registry = typeof registryOrVersion === 'string' ? require('prismarine-registry')(registryOrVersion) : registryOrVersion
+  const registry = typeof registryOrVersion === 'string' ? require('reinarpg-registry')(registryOrVersion) : registryOrVersion
   const Chunk = PrismarineChunk(registry)
 
   const loadVersion = registry.version.majorVersion

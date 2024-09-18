@@ -9,7 +9,7 @@ const testedVersions = require('../').supportedVersions
 
 for (const version of testedVersions) {
   if (todoVersions.includes(version)) continue
-  const registry = require('prismarine-registry')(version)
+  const registry = require('reinarpg-registry')(version)
   const Chunk = require('reinarpg-chunk')(registry)
   const chunk = new Chunk()
 

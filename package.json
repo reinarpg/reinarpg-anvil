@@ -33,7 +33,7 @@
     "reinarpg-data": "github:reinarpg/reinarpg-data",
     "mocha": "^10.0.0",
     "reinarpg-anvil": "file:.",
-    "prismarine-registry": "^1.1.0",
+    "reinarpg-registry": "^1.1.0",
     "range": "0.0.3",
     "standard": "^17.0.0"
   },
