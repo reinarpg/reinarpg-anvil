@@ -12,8 +12,8 @@ describe('can get chunks from region files', function () {
   this.timeout(5 * 1000)
   for (const version of versions) {
     describe(`open regions ${version}`, async () => {
-      const Anvil = require('prismarine-provider-anvil').Anvil(version)
-      const Chunk = require('prismarine-chunk')(version)
+      const Anvil = require('reinarpg-anvil').Anvil(version)
+      const Chunk = require('reinarpg-chunk')(version)
       const filePath = path.join(fixtures, version)
       const anvil = new Anvil(filePath)
       const regions = readFiles(filePath).filter(f => f.match(/r\.(-?\d+)\.(-?\d+)\.mca/))

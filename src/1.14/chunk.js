@@ -1,9 +1,9 @@
 const nbt = require('prismarine-nbt')
-const neededBits = require('prismarine-chunk/src/pc/common/neededBits')
+const neededBits = require('reinarpg-chunk/src/pc/common/neededBits')
 
 module.exports = (mcVersion, worldVersion, noSpan) => {
-  const BitArray = require(`prismarine-chunk/src/pc/common/BitArray${noSpan ? 'NoSpan' : ''}`)
-  const ChunkSection = require('prismarine-chunk')(mcVersion).section
+  const BitArray = require(`reinarpg-chunk/src/pc/common/BitArray${noSpan ? 'NoSpan' : ''}`)
+  const ChunkSection = require('reinarpg-chunk')(mcVersion).section
 
   return (Chunk, mcData) => {
     function nbtChunkToPrismarineChunk (data) {

@@ -12,7 +12,7 @@ const testedVersions = require('../').supportedVersions
 
 for (const version of testedVersions) {
   if (todoVersions.includes(version)) continue
-  const Chunk = require('prismarine-chunk')(version)
+  const Chunk = require('reinarpg-chunk')(version)
   const mcData = require('minecraft-data')(version)
   const Anvil = require('../').Anvil(version)
 

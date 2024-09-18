@@ -2,7 +2,7 @@ const assert = require('assert')
 const nbt = require('prismarine-nbt')
 
 module.exports = (ChunkColumn, registry) => {
-  const Block = require('prismarine-block')(registry)
+  const Block = require('reinarpg-block')(registry)
   const dataVersion = registry.version.dataVersion
   // turns a JS object into an NBT compound, with the values as nbt.string's
   const objPropsToNbt = props => Object.fromEntries(Object.entries(props).map(([k, v]) => [k, nbt.string(String(v))]))
