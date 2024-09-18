@@ -1,4 +1,4 @@
-const nbt = require('prismarine-nbt')
+const nbt = require('reinarpg-nbt')
 const Vec3 = require('vec3').Vec3
 const { readUInt4LE, writeUInt4LE } = require('uint4')
 

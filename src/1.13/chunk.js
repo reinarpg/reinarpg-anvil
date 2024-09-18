@@ -1,4 +1,4 @@
-const nbt = require('prismarine-nbt')
+const nbt = require('reinarpg-nbt')
 const ChunkSection = require('reinarpg-chunk')('1.13').section
 const neededBits = require('reinarpg-chunk/src/pc/common/neededBits')
 

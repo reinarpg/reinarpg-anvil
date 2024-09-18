@@ -1,4 +1,4 @@
-const nbt = require('prismarine-nbt')
+const nbt = require('reinarpg-nbt')
 const RegionFile = require('./region')
 module.exports = (mcVersion) => {
   const { nbtChunkToPrismarineChunk, prismarineChunkToNbt } = require('./chunk')(mcVersion)

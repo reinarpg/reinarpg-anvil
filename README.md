@@ -106,7 +106,7 @@ Writes a level.dat file
 
 ### 1.1.0
 
-* update dependencies, fix #10 (prismarine-nbt nbt.simplify was broken)
+* update dependencies, fix #10 (reinarpg-nbt nbt.simplify was broken)
 
 ### 1.0.1
 

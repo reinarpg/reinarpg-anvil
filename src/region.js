@@ -1,6 +1,6 @@
 const { promisify } = require('util')
 const fs = require('fs').promises
-const nbt = require('prismarine-nbt')
+const nbt = require('reinarpg-nbt')
 const zlib = require('zlib')
 
 const deflateAsync = promisify(zlib.deflate)

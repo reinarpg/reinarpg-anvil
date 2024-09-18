@@ -1,4 +1,4 @@
-const nbt = require('prismarine-nbt')
+const nbt = require('reinarpg-nbt')
 const neededBits = require('reinarpg-chunk/src/pc/common/neededBits')
 
 module.exports = (mcVersion, worldVersion, noSpan) => {

@@ -30,7 +30,7 @@
   "devDependencies": {
     "buffer-equal": "^1.0.0",
     "flatmap": "0.0.3",
-    "minecraft-data": "^3.0.0",
+    "reinarpg-data": "github:reinarpg/reinarpg-data",
     "mocha": "^10.0.0",
     "reinarpg-anvil": "file:.",
     "prismarine-registry": "^1.1.0",
@@ -40,7 +40,7 @@
   "dependencies": {
     "reinarpg-block": "github:reinarpg/reinarpg-block",
     "reinarpg-chunk": "github:reinarpg/reinarpg-chunk",
-    "prismarine-nbt": "github:reinarpg/reinarpg-nbt",
+    "reinarpg-nbt": "github:reinarpg/reinarpg-nbt",
     "reinarpg-world": "github:reinarpg/reinarpg-world",
     "uint4": "^0.1.2",
     "vec3": "^0.1.6"

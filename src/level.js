@@ -1,5 +1,5 @@
 // @ts-check
-const nbt = require('prismarine-nbt')
+const nbt = require('reinarpg-nbt')
 const { promisify } = require('util')
 const fs = require('fs').promises
 const zlib = require('zlib')

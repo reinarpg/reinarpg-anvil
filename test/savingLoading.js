@@ -13,7 +13,7 @@ const testedVersions = require('../').supportedVersions
 for (const version of testedVersions) {
   if (todoVersions.includes(version)) continue
   const Chunk = require('reinarpg-chunk')(version)
-  const mcData = require('minecraft-data')(version)
+  const mcData = require('reinarpg-data')(version)
   const Anvil = require('../').Anvil(version)
 
   const chunkConfig = mcData.supportFeature('tallWorld') ? { minY: -64, worldHeight: 384 } : undefined

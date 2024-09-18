@@ -1,5 +1,5 @@
 const assert = require('assert')
-const nbt = require('prismarine-nbt')
+const nbt = require('reinarpg-nbt')
 
 module.exports = (ChunkColumn, registry) => {
   const Block = require('reinarpg-block')(registry)

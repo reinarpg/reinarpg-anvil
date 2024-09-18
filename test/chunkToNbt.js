@@ -2,7 +2,7 @@
 
 const { Vec3 } = require('vec3')
 const assert = require('assert')
-const nbt = require('prismarine-nbt')
+const nbt = require('reinarpg-nbt')
 
 const todoVersions = ['1.9', '1.10', '1.11', '1.12', '1.15']
 const testedVersions = require('../').supportedVersions
